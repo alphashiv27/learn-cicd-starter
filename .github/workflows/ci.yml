@@ -46,6 +46,6 @@ jobs:
       - name: check linting
         run: staticcheck ./...
       
-      - name: check security
+      - name: gosec
         run: gosec ./...
   
